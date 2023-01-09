@@ -1,0 +1,23 @@
+.footer-container{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+    margin: 0;
+    padding: 0;
+
+    background-color: #5C00D7;
+}
+.footer a{
+    color: white;
+}
+.github:hover{
+    color: #766def;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
