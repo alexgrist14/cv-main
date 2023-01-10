@@ -1,0 +1,77 @@
+body {
+    --slider-width: 350px;
+    --slider-height: 200px;
+}
+
+.slider {
+    position: relative;
+    max-width: var(--slider-width);
+    height: var(--slider-height);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+}
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+    width: var(--slider-width);
+    height: var(--slider-height);
+    z-index: 1;
+}
+
+.slides {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: calc(-1 * var(--slider-width));
+    width: 10000px;
+}
+
+.slides.shifting {
+    transition: left .2s ease-out;
+}
+
+.slide {
+    width: var(--slider-width);
+    height: var(--slider-height);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 1s;
+    position: relative;
+    border-radius: 2px;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+.prev,
+.next {
+    background-size: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.prev {
+    background-image: url(../assets/icons/left_arrow.png);
+    left: -20px;
+}
+
+.next {
+    background-image: url(../assets/icons/right_arrow.png);
+    right: -20px;
+}
+
+.prev:active,
+.next:active {
+    transform: scale(.8);
+}

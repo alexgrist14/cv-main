@@ -5,9 +5,9 @@
 
 .section {
     width: 100%;
-
 }
-.left-container{
+
+.left-container {
     display: flex;
     padding-top: 100px;
     width: 450px;
@@ -18,12 +18,14 @@
     align-items: center;
     flex-direction: column;
 }
-.right-container{
+
+.right-container {
     display: flex;
     flex-direction: column;
 
 }
-.avatar{
+
+.avatar {
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +33,7 @@
     transform: translateX(-25%);
 }
 
-.avatar-section{
+.avatar-section {
     overflow: hidden;
     width: 260px;
     height: 260px;
@@ -41,14 +43,17 @@
     align-self: start;
     margin-left: 30px;
 }
-.contact-list img{
+
+.contact-list img {
     width: 25px;
     height: 25px;
 }
-.left-container{
+
+.left-container {
     color: white;
 }
-.left-container .section-title{
+
+.left-container .section-title {
     background-color: white;
     color: #604A9E;
     height: 60px;
@@ -58,7 +63,8 @@
     border-radius: 0 70px 0 0;
     margin-top: 100px;
 }
-.right-container{
+
+.right-container {
     color: #161616;
 }
 
@@ -74,46 +80,60 @@
     gap: 8px;
     align-items: center;
 }
+
 .contact-list a {
     color: white;
 }
-.contact-list a:hover{
+
+.contact-list a:hover {
     color: #c32ecc;
 }
-.left-content{
+
+.left-content {
     margin: 50px 0 0 100px;
 }
-.skills{
+.education{
+    margin-left: 50px;
+}
+
+.skills {
     margin-left: 50px;
     line-height: 2.5ch;
     font-size: 90%;
     padding: 0;
 }
-.skill-items{
+
+.skill-items {
     color: #ea8143;
 }
-.language{
+
+.language {
     margin-left: 150px;
 }
-.initials{
+
+.initials {
     font-size: 56px;
     text-align: center;
 }
-.profile{
+
+.profile {
     color: #B400F0;
 }
-.profile-title{
+
+.profile-title {
     text-align: center;
 }
-.first-name{
+
+.first-name {
     color: #B400F0;
 }
-.last-name{
+
+.last-name {
     color: #5C00D7;
     font-weight: bolder;
 }
 
-.right-container .section-title{
+.right-container .section-title {
     background-color: #5C00D7;
     color: white;
     height: 60px;
@@ -123,19 +143,28 @@
     border-radius: 0 70px 0 0;
     margin-top: 125px;
 }
-.right-container a{
+
+.right-container a {
     color: #2a33bd;
 }
-.right-container a:hover{
+
+.right-container a:hover {
     color: #9f80ef;
 }
-.summary-text{
-    width: 70%;
-    margin-top: 100px;
-    margin-left: 200px;
-    line-height: 3ch;
-}
 
-.right-content{
-    margin-left: 170px;
+.summary-text {
+    width: 70%;
+    text-align: center;
+    line-height: 3ch;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.summary-container{
+    text-align: center;
+}
+.image-slider{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
