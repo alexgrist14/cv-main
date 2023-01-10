@@ -3,7 +3,7 @@
     list-style: none;
 }
 
-a{
+a {
     color: #e0a8ea;
     text-decoration: none;
     transition: color 0.5s;
@@ -11,6 +11,7 @@ a{
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -24,11 +25,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.body{
+
+.body {
     max-width: 1440px;
     background-color: white;
-
-
 }
 
 .container {

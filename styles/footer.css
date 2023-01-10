@@ -1,4 +1,4 @@
-.footer-container{
+.footer-container {
     display: flex;
     color: white;
     font-size: 20px;
@@ -7,16 +7,18 @@
     height: 105px;
     margin: 0;
     padding: 0;
-
     background-color: #5C00D7;
 }
-.footer a{
+
+.footer a {
     color: white;
 }
-.github:hover{
+
+.github:hover {
     color: #766def;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
     width: 90%;
