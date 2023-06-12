@@ -172,4 +172,16 @@
     align-items: center;
 }
 
+.projects {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 170px;
+}
 
+.projects__list {
+    padding: 0;
+}
+
+.projects__list_item {
+    margin-top: 10px;
+}
