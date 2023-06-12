@@ -1,4 +1,1 @@
-
-# test task for "Js from Zero to Hero 2023"
-
-## link to solution - https://alexgrist14.github.io/test-task/
+# link to site - https://alexgrist14.github.io/test-task/
